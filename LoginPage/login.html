@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../resetCsss/reset.css">
+    <link rel="stylesheet" href="login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <form action="" class="form-login" data-aos="flip-up" data-aos-anchor-placement="center-bottom"
+    data-aos-duration="2000">
+        <header class="title">
+            <h1 data-aos="fade-up"
+            data-aos-duration="3000" data-aos-anchor-placement="bottom-bottom">Log In</h1>
+        </header>
+        <section class="input-field">
+            <div>
+                <input type="text" name="username" id="username" placeholder="Username" >
+                <span><i class='bx bxs-user'></i></span>
+            </div>
+            <div>
+                <input type="password" name="password" id="password" placeholder="Password">
+                <span><i class='bx bxs-lock'></i></span>
+            </div>
+            <button>Log in</button>
+        </section>
+    </form>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
